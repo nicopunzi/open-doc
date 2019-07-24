@@ -232,7 +232,7 @@ _*[.underline]#NB#*: These settings have to be put on every OpenHospital copy, i
 
 More information in chapter link:#database.properties[5.2 database.properties] and link:#log4j.properties[5.3 log4j.properties].
 
-==== Run OpenHospital
+==== 3.1.4 Run OpenHospital
 
 We are ready now to run the OpenHospital software by executing the proper launcher:
 
@@ -422,7 +422,7 @@ _*[.underline]#NB#*: every change to these files need an application restart in 
 
 In following chapters, we will see all these properties files and all their feature in details.
 
-=== generalData.properties
+=== 5.1 generalData.properties
 
 OpenHospital 1.7 comes with the generalData.properties file set as follow by default:
 
@@ -856,7 +856,7 @@ OpenHospital, since version 1.5, allows to set this parameter that will be used 
 
 By default, SMSENABLED is set to no.
 
-===== Configuration
+===== 5.1.22.1 Configuration
 
 In order to setup a GSM device, you must set as GSM mode in the related sms.properties file (see link:#sms.properties[sms.properties]) and then set up the related GSM.properties file (see link:#gsm.properties[GSM.properties]).
 
@@ -864,7 +864,7 @@ The settings in the GSM.properties file should work with the majority of GSM dev
 
 If you’re sure the PORT is correct but still OpenHospital is not communicating with the device (we suggest to switch to DEBUG log level – or lower - during this setup – see link:#_log4j.properties_1[log4j.properties]) you might use the SetupGSM utility in your OpenHospital root folder (see link:#folders[Folders])
 
-===== SetupGSM
+===== 5.1.22.2 SetupGSM
 
 In order to use the SetupGSM utility just follow these instructions:
 
@@ -880,7 +880,7 @@ image:extracted-media/media/image25.png[image,width=293,height=120]
 
 
 
-==== 5.1.123 MAINMENUALWAYSONTOP
+==== 5.1.23 MAINMENUALWAYSONTOP
 
 The following table shows the default value and the allowed ones:
 
