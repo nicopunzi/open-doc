@@ -8,7 +8,9 @@
 :url-gem: https://rubygems.org/gems/asciidoctor
 
 
-image:extracted-media/media/image1.jpeg[image,width=390,height=298]
+image:_extracted-media/media/image1.jpeg[image,width=390,height=298]
+
+
 
 # Open Hospital
 
@@ -61,15 +63,15 @@ The Administrator/Installer tasks are hereby listed:
 * Copy the OpenHospital application on every client (it may be used on the server too)
 * Configure each OpenHospital copy to point the server (using the hostname or the IP address)
 
-For Java Runtime Environment installation refer to next chapter link:#3-1-1-java-runtime-environment[Java Runtime Environment] and to online documentation.
+For Java Runtime Environment installation refer to next chapter link:#java-runtime-environment[3.1.1 Java Runtime Environment] and to online documentation.
 
-For MySQL installation and DB creation refer to chapter link:#3-1-2-mysql-server-and-openhospital-db[MySQL Server and OH DB] and to online documentation.
+For MySQL installation and DB creation refer to chapter link:#mysql-server-and-openhospital-db[3.1.1 MySQL Server and OH DB] and to online documentation.
 
 For OpenHospital installation on every client, as told, is enough to copy and extract the zip file.
 
-For OpenHospital configuration refer to chapter link:#5-configuration-files[Configuration files].
+For OpenHospital configuration refer to chapter link:#configuration-files[5 Configuration files].
 
-==== 3.1.1 Java Runtime Environment
+==== Java Runtime Environment
 
 Depending on the operating system you have, there are different ways to install a Java Virtual Machine and the Java Runtime Environment.
 
@@ -230,9 +232,9 @@ We have to specify:
 
 _*[.underline]#NB#*: These settings have to be put on every OpenHospital copy, it’s to say, on every client._
 
-More information in chapter link:#5-2-database.properties[database.properties] and link:#5-3-log4j.properties[log4j.properties].
+More information in chapter link:#database.properties[5.2 database.properties] and link:#log4j.properties[5.3 log4j.properties].
 
-==== 3.1.4 Run OpenHospital
+==== Run OpenHospital
 
 We are ready now to run the OpenHospital software by executing the proper launcher:
 
@@ -249,7 +251,7 @@ image:extracted-media/media/image18.png[MainMenu.PNG,width=135,height=306]
 
 You may create a shortcut (link) to the executable script on the Desktop, the Programs Menu or wherever you need by using the provided icon “oh.ico” that you find in the package.
 
-image:extracted-media/media/image100.png[oh.ico,width=32,height=32]
+image:extracted-media/media/image19.wmf[oh.ico,width=32,height=32]
 
 === 3.2 Portable OpenHospital
 
@@ -422,7 +424,7 @@ _*[.underline]#NB#*: every change to these files need an application restart in 
 
 In following chapters, we will see all these properties files and all their feature in details.
 
-=== 5.1 generalData.properties
+=== generalData.properties
 
 OpenHospital 1.7 comes with the generalData.properties file set as follow by default:
 
@@ -479,7 +481,7 @@ OpenHospital has a predefined user called “admin” that have all rights to ac
 
 If SINGLEUSER is set to NO the following login window will appear when start the program:
 
-image:extracted-media/media/image24.PNG[Login.PNG,width=305,height=148]
+image:extracted-media/media/image24.png[Login.PNG,width=305,height=148]
 
 The default password for “admin” user is “admin”. By typing his password in the white field and by pressing *[.underline]##S##ubmit*, you will see the main *_Menu_* with all functionalities enabled.
 
@@ -856,7 +858,7 @@ OpenHospital, since version 1.5, allows to set this parameter that will be used 
 
 By default, SMSENABLED is set to no.
 
-===== 5.1.22.1 Configuration
+===== Configuration
 
 In order to setup a GSM device, you must set as GSM mode in the related sms.properties file (see link:#sms.properties[sms.properties]) and then set up the related GSM.properties file (see link:#gsm.properties[GSM.properties]).
 
@@ -864,23 +866,22 @@ The settings in the GSM.properties file should work with the majority of GSM dev
 
 If you’re sure the PORT is correct but still OpenHospital is not communicating with the device (we suggest to switch to DEBUG log level – or lower - during this setup – see link:#_log4j.properties_1[log4j.properties]) you might use the SetupGSM utility in your OpenHospital root folder (see link:#folders[Folders])
 
-===== 5.1.22.2 SetupGSM
+===== SetupGSM
 
 In order to use the SetupGSM utility just follow these instructions:
 
 [arabic]
 . plug your device in your system and be sure the system recognizes it, load a proper driver for it and assign a serial port (COM)
 . Launch the utility: the utility will scan all plugged devices and will try to recognize the modem (or phone) within them
-. If the device is recognized as modem you will be prompted for a confirm message as the follow  
-
-image:extracted-media/media/image25.png[image,width=293,height=120]
-
+. If the device is recognized as modem you will be prompted for a confirm message as the follow +
+ +
+image:extracted-media/media/image25.PNG[image,width=293,height=120]
 . If the name of the device is the one meant to be used with the system then just click “yes”, otherwise click “no” and the scan will continue
 . Once you click “yes” the GSM.properties file will be automatically modified by the utility
 
 
 
-==== 5.1.23 MAINMENUALWAYSONTOP
+==== 5.1.123 MAINMENUALWAYSONTOP
 
 The following table shows the default value and the allowed ones:
 
@@ -1037,7 +1038,7 @@ _*[.underline]#NB#*: An application restart is required in order to see the modi
 
 OpenHospital 1.7 and above comes with the database.properties file set as follow by default:
 
-image:extracted-media/media/image27.PNG[image,width=646,height=124]
+image:extracted-media/media/image27.png[image,width=646,height=124]
 
 First two parameters are not meant to be modified by the User, neither by the Administrator:
 
@@ -1113,7 +1114,7 @@ image:extracted-media/media/image30.png[image,width=645,height=190]
 
 This file is not meant to be modified by the User.
 
-Nevertheless the hibernet.connection parameters must be set properly, according with database.properties (see link:#5-2-database.properties[database.properties]), by editing the following lines (in *red* the most important parameters):
+Nevertheless the hibernet.connection parameters must be set properly, according with database.properties (see link:#database.properties[5.2 database.properties]), by editing the following lines (in *red* the most important parameters):
 
 image:extracted-media/media/image31.png[image,width=645,height=68]
 
@@ -1143,7 +1144,7 @@ You can also decide to log only in the standard output (the console window) with
 
 image:extracted-media/media/image36.png[image,width=645,height=17]
 
-The DB appender configuration must be set properly, according with database.properties (see link:#5-2-database.properties[database.properties]), by editing the following lines (in *red* the most important parameters):
+The DB appender configuration must be set properly, according with database.properties (see link:#database.properties[5.2 database.properties]), by editing the following lines (in *red* the most important parameters):
 
 image:extracted-media/media/image37.png[image,width=645,height=84]
 
@@ -1429,7 +1430,7 @@ image:extracted-media/media/image61.png[image,width=604,height=245]
 [upperalpha]
 . OH’s advanced features require “native” libraries, with the same language of the computer’s operative system. Right-click on project’s name, then select Run As -> Run Configurations. +
  +
-image:extracted-media/media/image62.PNG[image,width=604,height=377]
+image:extracted-media/media/image62.png[image,width=604,height=377]
 
 [upperalpha, start=2]
 . A “Run Configurations” window opens. Choose Java Application -> <application’s name> - Menu (1) on this example. Select the “Main” tab, write “angal” on the “Project” field and check if the “Main class” is org.isf.menu.gui.Menu.
