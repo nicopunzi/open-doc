@@ -230,7 +230,7 @@ We have to specify:
 
 _*[.underline]#NB#*: These settings have to be put on every OpenHospital copy, it’s to say, on every client._
 
-More information in chapter link:#5-2-database.properties[database.properties] and link:#5-3-log4j.properties[log4j.properties].
+More information in chapter link:#5-2-database-properties[database.properties] and link:#5-3-log4j-properties[log4j.properties].
 
 ==== 3.1.4 Run OpenHospital
 
@@ -533,7 +533,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since its first version, allows to produce a report about the clinical history of a patient (see *10.9 Clinical Sheet* in the _User’s Guide_).
 
-By default, PATIENTSHEET is set to patient_clinical_sheet that is the filename of the related report to use for the Clinical Sheet functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, PATIENTSHEET is set to patient_clinical_sheet that is the filename of the related report to use for the Clinical Sheet functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -551,7 +551,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since its version 1.8, allows to produce a report about the OPD chart of a patient (see *10.9 Clinical Sheet* in the _User’s Guide_).
 
-By default, OPDCHART is set to patient_opd_chart that is the filename of the related report to use for the Clinical Sheet functionality *OPD Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, OPDCHART is set to patient_opd_chart that is the filename of the related report to use for the Clinical Sheet functionality *OPD Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -569,7 +569,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since its version 1.8, allows to produce a report about the Admission of a patient (see *10.9 Clinical Sheet* in the _User’s Guide_).
 
-By default, ADMCHART is set to patient_adm_chart that is the filename of the related report to use for the Clinical Sheet functionality *Admission Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, ADMCHART is set to patient_adm_chart that is the filename of the related report to use for the Clinical Sheet functionality *Admission Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -586,7 +586,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since its version 1.8, allows to produce a report about the Discharge of a patient (see *10.9 Clinical Sheet* in the _User’s Guide_).
 
-By default, DISCHART is set to patient_dis_chart that is the filename of the related report to use for the Clinical Sheet functionality *Discharge Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, DISCHART is set to patient_dis_chart that is the filename of the related report to use for the Clinical Sheet functionality *Discharge Chart*. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -604,7 +604,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since version 1.6.0, allows to manage patient bills and to produce an A4 format breakdown with his/her items and payments (see *8.2 Functions of Accounting* in the _User’s Guide_)
 
-By default, PATIENTBILL is set to PatientBill that is the filename of the related report to use for the bill printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, PATIENTBILL is set to PatientBill that is the filename of the related report to use for the bill printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -622,7 +622,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since version 1.6.0, allows to manage patient bills and to produce a report about all bills paid (or not paid) within a span of time (see *8.2 Functions of Accounting* in the _User’s Guide_)
 
-By default, BILLSREPORT is set to BillsReport that is the filename of the related report to use for the account printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, BILLSREPORT is set to BillsReport that is the filename of the related report to use for the account printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -640,7 +640,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since version 1.6.0, allows to manage patient bills and to produce a report about all bills paid (or not paid) monthly (see**8.2 Functions of Accounting** in the _User’s Guide_).
 
-By default, BILLSREPORTMONTH is set to BillsReportMonth that is the filename of the related report to use for the account printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, BILLSREPORTMONTH is set to BillsReportMonth that is the filename of the related report to use for the account printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -658,7 +658,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since version 1.7.0, allows to produce a report for the Pharmacy Stock critical levels, that help to know which pharmaceuticals are going to end and which ones need to be ordered (see *6.1 Pharmaceuticals* in the _User’s Guide_).
 
-By default, PHARMACEUTICALORDER is set to PharmaceuticalOrder that is the filename of the related report to use for the pharmacy printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, PHARMACEUTICALORDER is set to PharmaceuticalOrder that is the filename of the related report to use for the pharmacy printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -676,7 +676,7 @@ The following table shows the default value and the allowed ones:
 
 OpenHospital, since version 1.7.0, allows to produce a report for the Pharmacy Stock Status, that help to know which pharmaceuticals are currently stored (see *6.1 Pharmaceuticals* in the _User’s Guide_).
 
-By default, PHARMACEUTICALSTOCK is set to PharmaceuticalStock that is the filename of the related report to use for the pharmacy printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#_Reports[Reports]) and by changing this parameter.
+By default, PHARMACEUTICALSTOCK is set to PharmaceuticalStock that is the filename of the related report to use for the pharmacy printing functionality. Anyway, is possible to use a different report by installing it in the report folder (see link:#6-Reports[Reports]) and by changing this parameter.
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied._
 
@@ -858,11 +858,11 @@ By default, SMSENABLED is set to no.
 
 ===== 5.1.22.1 Configuration
 
-In order to setup a GSM device, you must set as GSM mode in the related sms.properties file (see link:#sms.properties[sms.properties]) and then set up the related GSM.properties file (see link:#gsm.properties[GSM.properties]).
+In order to setup a GSM device, you must set as GSM mode in the related sms.properties file (see link:#5-7-sms-properties[sms.properties]) and then set up the related GSM.properties file (see link:#5-7-1-gsm-properties[GSM.properties]).
 
 The settings in the GSM.properties file should work with the majority of GSM devices (like phones, smartphones, usb modems, etc…) and only the PORT parameter should be changed accordingly with the SERIAL port used by your system to address the device once plugged in the system.
 
-If you’re sure the PORT is correct but still OpenHospital is not communicating with the device (we suggest to switch to DEBUG log level – or lower - during this setup – see link:#_log4j.properties_1[log4j.properties]) you might use the SetupGSM utility in your OpenHospital root folder (see link:#folders[Folders])
+If you’re sure the PORT is correct but still OpenHospital is not communicating with the device (we suggest to switch to DEBUG log level – or lower - during this setup – see link:#5-6-log4j-properties[log4j.properties]) you might use the SetupGSM utility in your OpenHospital root folder (see link:#folders[Folders])
 
 ===== 5.1.22.2 SetupGSM
 
@@ -908,7 +908,7 @@ The following table shows the default value and the allowed ones:
 |RECEIPTPRINTER |no |yes, no
 |===
 
-OpenHospital, since version 1.5, allows to drive text or ZPL printers with aim of printing simple receipts in Accounting module (see *8.2.1.10 Print receipt* function in _User’s Guide_). Once this option has been activated, some parameters have to be set in *txtPrinter.properties file* in order to adjust the output with the printer connected to the system (see link:#txtprinter.properties[txtPrinter.properties] in this document).
+OpenHospital, since version 1.5, allows to drive text or ZPL printers with aim of printing simple receipts in Accounting module (see *8.2.1.10 Print receipt* function in _User’s Guide_). Once this option has been activated, some parameters have to be set in *txtPrinter.properties file* in order to adjust the output with the printer connected to the system (see link:#5-8-txtprinter-properties[txtPrinter.properties] in this document).
 
 By default, RECEIPTPRINTER is set to no.
 
@@ -983,7 +983,7 @@ The following table shows the default value and the allowed ones:
 |XMPPMODULEENABLED |no |yes, no
 |===
 
-OpenHospital, since version 1.7, embeds a new technology that allow users logged in the application to chat and share information related to the hospital activities (see *13 Communication* in the User’s Guide); the SINGLEUSER option must be set to no too. If this option is active, OpenHospital will look for an XMPP Server at startup time. The *xmpp.properties* will be used to point the server that must be installed on the computer or on the OH Server by the System Administrator (see link:#xmpp.properties[xmpp.properties] in this document).
+OpenHospital, since version 1.7, embeds a new technology that allow users logged in the application to chat and share information related to the hospital activities (see *13 Communication* in the User’s Guide); the SINGLEUSER option must be set to no too. If this option is active, OpenHospital will look for an XMPP Server at startup time. The *xmpp.properties* will be used to point the server that must be installed on the computer or on the OH Server by the System Administrator (see link:#5-9-xmpp-properties[xmpp.properties] in this document).
 
 By default, XMPPMODULEENABLED is set to no, but if SINGLEUSER is set to yes it will be just ignored.
 
@@ -1058,7 +1058,7 @@ The full address for the db will then result as:
 jdbc:mysql://localhost/oh
 
 _*[.underline]#NB#*: An application restart is required in order to see the modification applied. +
-NB: Same settings have to be applied in log4.properties (since OpenHospital 1.7.0) and h8.properties (since OpenHospital 1.8.0); see_ log4j.properties _and_ h8.properties _chapters in this manual._
+NB: Same settings have to be applied in log4.properties (since OpenHospital 1.7.0) and h8.properties (since OpenHospital 1.8.0); see link:#5-6-log4j-properties[log4j.properties] _and_ h8.properties _chapters in this manual._
 
 === 5.3 dicom.properties
 
@@ -1113,7 +1113,7 @@ image:extracted-media/media/image30.png[image,width=645,height=190]
 
 This file is not meant to be modified by the User.
 
-Nevertheless the hibernet.connection parameters must be set properly, according with database.properties (see link:#5-2-database.properties[database.properties]), by editing the following lines (in *red* the most important parameters):
+Nevertheless the hibernet.connection parameters must be set properly, according with database.properties (see link:#5-2-database-properties[database.properties]), by editing the following lines (in *red* the most important parameters):
 
 image:extracted-media/media/image31.png[image,width=645,height=68]
 
@@ -1143,7 +1143,7 @@ You can also decide to log only in the standard output (the console window) with
 
 image:extracted-media/media/image36.png[image,width=645,height=17]
 
-The DB appender configuration must be set properly, according with database.properties (see link:#5-2-database.properties[database.properties]), by editing the following lines (in *red* the most important parameters):
+The DB appender configuration must be set properly, according with database.properties (see link:#5-2-database-properties[database.properties]), by editing the following lines (in *red* the most important parameters):
 
 image:extracted-media/media/image37.png[image,width=645,height=84]
 
@@ -1194,7 +1194,7 @@ OpenHospital 1.7 and above comes with the txtPrinter.properties file set as foll
 
 image:extracted-media/media/image41.png[image,width=645,height=153]
 
-This file will be used only if the RECEIPTPRINTER flag is enabled (see link:#receiptprinter[5.1.20 RECEIPTPRINTER] in this document)
+This file will be used only if the RECEIPTPRINTER flag is enabled (see link:#5-1-24receiptprinter[RECEIPTPRINTER] in this document)
 
 This file has seven parameters, hereby explained:
 
@@ -1232,7 +1232,7 @@ OpenHospital 1.7 and above comes with the xmpp.properties file set as follow by 
 
 image:extracted-media/media/image44.png[image,width=646,height=48]
 
-This file will be used only if the XMPPMODULEENABLED flag is enabled (see link:#xmppmoduleenabled[5.1.24 XMPPMODULEENABLED] in this document)
+This file will be used only if the XMPPMODULEENABLED flag is enabled (see link:#5-1-28-xmppmoduleenabled[XMPPMODULEENABLED] in this document)
 
 In order to use the Communication module (see *13 Communication* in the _User’s Guide_) you must install an XMPP Server separately on the OH Server, let’s say side by side with MySQL Server.
 
@@ -1267,7 +1267,7 @@ Please follow these settings:
 
 === 5.10 Bundles
 
-Bundles are the language (or translation) files provided with OpenHospital. As told in link:#language[5.1.1 LANGUAGE] chapter, OpenHospital 1.7 comes with different available languages in folder bundles/ within the package file:
+Bundles are the language (or translation) files provided with OpenHospital. As told in link:#5-1-1-language[LANGUAGE] chapter, OpenHospital 1.7 comes with different available languages in folder bundles/ within the package file:
 
 *language_XY.properties*
 
@@ -1354,10 +1354,10 @@ image:extracted-media/media/image47.png[image,width=604,height=377]
 [upperalpha, start=3]
 . A “Confirm Open Perspective” window is shown. Click “Yes” to confirm “CVS Repository Exploring” as CVS’s perspective. +
  +
-image:extracted-media/media/image48.jpeg[image,width=604,height=250]
+image:extracted-media/media/image48.jpeg[image,width=250,height=x604]
 . As this window shows, the CVS has been installed. Click “Window” on the Eclipse menu, then choose Show View -> Other, then select CVS -> CVS Repositories from the “Show View” window to see the CVSs installed on Eclipse. Chapter 7.1.2 explains how to complete project creation. +
  +
-image:extracted-media/media/image49.png[image,width=604,height=177]
+image:extracted-media/media/image49.png[image,width=604,height=377]
 
 ==== 7.1.2 Create a project from existing CVS repository
 
@@ -1410,7 +1410,7 @@ Before running the project, an update with the existing CVS might be required. R
  +
 _*NB:* Since version 1.8.3, the code is available on GIT over the SourceForge website at this link:_
 
-https://sourceforge.net/p/openhospital/openhospital/ci/master/tree/[_ηττπσ://σουρχεφοργε.νετ/π/οπενηοσπιταλ/οπενηοσπιταλ/χι/μαστερ/τρεε/_]
+https://sourceforge.net/p/openhospital/openhospital/ci/master/tree/[_https://sourceforge.net/p/openhospital/openhospital/ci/master/tree/]
 
 _Please use EGit (Eclipse Plugin for Git) in order to clone the code on your Eclipse)_
 
@@ -1437,12 +1437,12 @@ image:extracted-media/media/image62.PNG[image,width=604,height=377]
 -Dsun.java2d.dpiaware=false -Djava.library.path=lib\native\<OS name> +
  +
 OS name can be “Mac_OS_X”, “Solaris”, “Linux”, “Win64” (for 64-bit Windows) or “Windows” (for 32-bit Windows) according with the folders schema you find in the related folder “native”. Click on “Run” to close the window and run the application. +
-image:extracted-media/media/image63.PNG[image,width=604,height=337]
+image:extracted-media/media/image63.png[image,width=604,height=337]
 
 [upperalpha, start=6]
 . Now that the run configuration settings have been selected, OH can be launched by just clicking on the “Run” button (shown below by an arrow). +
  +
-image:extracted-media/media/image64.png[image,width=604,height=145] +
+image:extracted-media/media/image64.png[image,width=604,height=377] +
 image:extracted-media/media/image65.png[image,width=604,height=377]
 . Because of default settings, OH’s first run will not show the login window. The system is set in “single user” mode as default. Proof is the “SINGLEUSER=yes” string on the third row of the generalData.properties file. This is way different in the real world, where OH must be accessible to the administrator and logged users only. Click on the triangle near to the project’s name, do the same on the “rsc” subfolder and then double-click on the generalData.properties file. +
  +
@@ -1453,7 +1453,7 @@ image:extracted-media/media/image66.png[image,width=604,height=273]
 image:extracted-media/media/image67.png[image,width=604,height=377] +
  +
 If the password is not correct, an error message is shown, asking the user to try again.
-. In order to better understand the processes underneath the software you may also enable the “Standard Output” in log4j.properties as explained in chapter link:#log4j.properties[log4j.properties].
+. In order to better understand the processes underneath the software you may also enable the “Standard Output” in log4j.properties as explained in chapter link:#5-6-log4j-properties[log4j.properties].
 
 == 8 Update OpenHospital
 
@@ -1474,7 +1474,7 @@ There are two type of releases:
 
 Changes are in the CHANGELOG file
 
-Minor Releases (if not otherwise specified) don’t need changes to the DB, so you can replace you working copy on each client with the new one and connect it to the same DB (see database.properties, log4j.properties and h8.properties).
+Minor Releases (if not otherwise specified) don’t need changes to the DB, so you can replace you working copy on each client with the new one and connect it to the same DB (see database.properties, link:#5-6-log4j-properties[log4j.properties] and h8.properties).
 
 Only pay attention to keep files that have been changed, especially configuration settings (see Configuration Files). The most common way is to backup your working copy and re-apply those settings in the new one (see Backup of code and settings (Software)).
 
