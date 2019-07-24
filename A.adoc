@@ -61,7 +61,7 @@ The Administrator/Installer tasks are hereby listed:
 * Copy the OpenHospital application on every client (it may be used on the server too)
 * Configure each OpenHospital copy to point the server (using the hostname or the IP address)
 
-For Java Runtime Environment installation refer to next chapter link:#java-runtime-environment[3.1.1 Java Runtime Environment] and to online documentation.
+For Java Runtime Environment installation refer to next chapter link:#java-runtime-environment[3.1.1-Java Runtime Environment] and to online documentation.
 
 For MySQL installation and DB creation refer to chapter link:#mysql-server-and-openhospital-db[3.1.1 MySQL Server and OH DB] and to online documentation.
 
