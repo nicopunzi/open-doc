@@ -479,7 +479,7 @@ OpenHospital has a predefined user called “admin” that have all rights to ac
 
 If SINGLEUSER is set to NO the following login window will appear when start the program:
 
-image:extracted-media/media/image24.png[Login.PNG,width=305,height=148]
+image:extracted-media/media/image24.PNG[Login.PNG,width=305,height=148]
 
 The default password for “admin” user is “admin”. By typing his password in the white field and by pressing *[.underline]##S##ubmit*, you will see the main *_Menu_* with all functionalities enabled.
 
@@ -1036,7 +1036,7 @@ _*[.underline]#NB#*: An application restart is required in order to see the modi
 
 OpenHospital 1.7 and above comes with the database.properties file set as follow by default:
 
-image:extracted-media/media/image27.png[image,width=646,height=124]
+image:extracted-media/media/image27.PNG[image,width=646,height=124]
 
 First two parameters are not meant to be modified by the User, neither by the Administrator:
 
@@ -1428,7 +1428,7 @@ image:extracted-media/media/image61.png[image,width=604,height=245]
 [upperalpha]
 . OH’s advanced features require “native” libraries, with the same language of the computer’s operative system. Right-click on project’s name, then select Run As -> Run Configurations. +
  +
-image:extracted-media/media/image62.png[image,width=604,height=377]
+image:extracted-media/media/image62.PNG[image,width=604,height=377]
 
 [upperalpha, start=2]
 . A “Run Configurations” window opens. Choose Java Application -> <application’s name> - Menu (1) on this example. Select the “Main” tab, write “angal” on the “Project” field and check if the “Main class” is org.isf.menu.gui.Menu.
