@@ -8,7 +8,7 @@
 :url-gem: https://rubygems.org/gems/asciidoctor
 
 
-image:_extracted-media/media/image1.jpeg[image,width=390,height=298]
+image:extracted-media/media/image1.jpeg[image,width=390,height=298]
 
 # Open Hospital
 
