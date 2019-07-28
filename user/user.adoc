@@ -141,7 +141,7 @@ _
 * *Date of the visit*. Date in which Patient is met for recorded activity.
 * *Disease Type:* By selecting a _DiseaseType_ the first diagnosis list will contain only its related diseases. Second and third list will still contain all diseases. +
  +
-_*[.underline]#NB#*: Disease Types can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document. +
+_*[.underline]#NB#*: Disease Types can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document. +
 _
 * *Diagnosis.* Maximum three diseases can be diagnosed per each attendance (“new attendance” or “re-attendance” it does not care in this context). Normally patient reports at least one visit reason but it may happen that during same visit the Doctor finds other concurrent pathologies thus here possibility is given to record till maximum three (the first being the only one mandatory). +
  +
@@ -256,7 +256,7 @@ To insert a new pharmaceutical, enter the following fields:
 
 * *Type* (for instance, Drugs or Chemical) +
  +
-_*[.underline]#NB#*: Types can be defined by the Administrator._ _Ask to your Administrator how to do it see link:#true14_general_data_general_data[General Data] in this document +
+_*[.underline]#NB#*: Types can be defined by the Administrator._ _Ask to your Administrator how to do it see link:#14-general-data-general-data[General Data] in this document +
 _
 * *Code*: code that identify univocally your pharmaceutical for fast searching
 * *Description*: the description of the pharmaceutical
@@ -659,7 +659,7 @@ In OpenHospital you have basically two kind of possible results for each exam:
 
 image:extracted-media/media/image45.png[Laboratory_new_proc1.PNG,width=309,height=340]image:extracted-media/media/image46.png[Laboratory_new_proc2.PNG,width=309,height=341]
 
-_*[.underline]#NB#*: Exams, Exam Types and Results as well, can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: Exams, Exam Types and Results as well, can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 When you finish entering data in the *Buttons Panel* you have the following choices:
 
@@ -790,14 +790,14 @@ Data showed on the *Bill Panel* area are:
 * *Patient*: it is the patient associated with the bill
 * *List*: it is the PriceList that will be used for this bill +
  +
-_*[.underline]#NB#*: PriceLists can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: PriceLists can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 Data showed on the *Item Panel* area are:
 
 * *Item, Qty, Amount*: they are the description of the bill entry, the selected quantity and the amount; the amount is calculated as the unitary cost of the item multiplied by the quantity;
 * *TOTAL*: it is the total amount of the bill +
  +
-_*[.underline]#NB#*: Prices, or unitary costs, can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: Prices, or unitary costs, can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 Data showed on *The Payments* area are:
 
@@ -822,7 +822,7 @@ There are several types of Bill entry. They are identified by the button on the 
 * *[.underline]##E##xam* to enter bill entries of exams
 * *[.underline]##O##ther* to enter other prices defined in the PriceList +
 ** +
-_[.underline]#NB#_**__: Types can be defined by the Administrator. Ask to your Administrator how to do it or read the see link:#true14_general_data_general_data[General Data] in this document.__
+_[.underline]#NB#_**__: Types can be defined by the Administrator. Ask to your Administrator how to do it or read the see link:#14-general-data-general-data[General Data] in this document.__
 * *[.underline]##C##ustom* to enter custom items defined on the fly
 
 ===== 8.2.1.1 Insert a bill entry related to Medicals, Operations or Exams ([.underline]##M##edical, [.underline]##O##peration, [.underline]##E##xam) 
@@ -1023,7 +1023,7 @@ Doing the selection, data about vaccinations can be selected by choosing specifi
 * *Vaccine type:* by selecting a Vaccine Type you will filter the Vaccine list
 * *Vaccine.* You can select one vaccine or the value “All vaccines” +
  +
-_*[.underline]#NB#*: VaccineTypes and Vaccines can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: VaccineTypes and Vaccines can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 * **Date. “**DATE From” and “DATE To” allow the selection of all the vaccinations over the requested period
 * **Age. “**Age From” and “Age To” allow the selection of all the patients subject to vaccinations by age
 * *Sex.* All / Male / Female
@@ -1050,7 +1050,7 @@ To record a new patient vaccination enters the following fields:
 * *Vaccine type:* the Vaccine Type
 * *Vaccine:* the Vaccine +
  +
-_*[.underline]#NB#*: VaccineTypes and Vaccines can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: VaccineTypes and Vaccines can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 When you finish entering data in the *Buttons Panel* you have the following choices:
 
@@ -1149,7 +1149,7 @@ Doing the selection, data about patients can be selected by choosing specific fi
 
 * *Ward.* You can select one or more wards between Maternity, Nursery, Surgery, Internal medicine +
  +
-_*[.underline]#NB#*: Wards can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document. +
+_*[.underline]#NB#*: Wards can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document. +
 _
 * *Age.* You can filter the patients list by age range
 * *Sex.* You can filter the patients list by gender
@@ -1248,7 +1248,7 @@ In any case it will be converted to an age in years in the *_Patients browser_* 
 * *Has Insurance*: you may specify if the patient has a health financial protection
 * *Load File*: could be used to load a patient picture (will be cropped squared)
 
-_*[.underline]#NB#*: AgeTypes (Descriptions) can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: AgeTypes (Descriptions) can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 ====  10.4.2 Height and Weight functionality (Height and Weight)
 
@@ -1308,7 +1308,7 @@ To start an admission, you have to enter the following fields (on the right side
 * *Malnutrition* (not mandatory) in case of malnutrition you may check this box so you will manage the malnutrition control from the *_Patient data_* window (see Malnutrition control function).
 * *Diagnosis IN:* it is the diagnosis the patient has been admitted with
 
-_*[.underline]#NB#*: Wards, AdmissionType and Diagnosis can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: Wards, AdmissionType and Diagnosis can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 _*[.underline]#NB#*: The "Progressive in year" field is automatically populated by the program; in case of maternity the counter can starts from first January or from first June as far as the current normative ask to the health facilities; to change this behaviour please ask to your Administrator to set the MATERNITYRESTARTINJUNE [.underline]# # flag in the configuration file or read the Administrator’s Guide._
 
@@ -1362,7 +1362,7 @@ Operations data that you can manage are:
 
 image:extracted-media/media/image95.png[Admission_operation.PNG,width=642,height=345]
 
-_*[.underline]#NB#*: OperationType and Operations can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: OperationType and Operations can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 ====  10.5.4 Insert/modify Delivery data
 
@@ -1381,7 +1381,7 @@ In the window extension you will be able to specify much information about the M
 
 image:extracted-media/media/image96.png[Admission_delivery.PNG,width=642,height=339]
 
-_*[.underline]#NB#*: TreatmentType, DeliveryType and DeliveryResultType can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: TreatmentType, DeliveryType and DeliveryResultType can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 ====  10.5.5 Discharge of a patient ([.underline]##A##dmission)
 
@@ -1395,7 +1395,7 @@ You have to enter the following data:
 
 image:extracted-media/media/image97.png[Admission_discharge.PNG,width=642,height=337]
 
-_*[.underline]#NB#*: DischargeTypes and Diseases can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#true14_general_data_general_data[General Data] in this document._
+_*[.underline]#NB#*: DischargeTypes and Diseases can be defined by the Administrator._ _Ask to your Administrator how to do it or see link:#14-general-data-general-data[General Data] in this document._
 
 When you finish entering data in the *Buttons Panel* you have the following choices:
 
@@ -1409,11 +1409,11 @@ image:extracted-media/media/image98.png[Admission Patient_discharged.PNG,width=6
 
 ===  10.6 OPD ([.underline]##O##PD)
 
-If _OPDEXTENDED_ flag is set as YES in the configuration file (ask to your Administrator) the button *[.underline]##O##PD* in the Admission/Patient window will allow you to start an OPD by selecting the related patient first (see link:#true5_2_2_create_a_new_patient_visit_new[Create a new patient visit (New)] for more information)
+If _OPDEXTENDED_ flag is set as YES in the configuration file (ask to your Administrator) the button *[.underline]##O##PD* in the Admission/Patient window will allow you to start an OPD by selecting the related patient first (see link:#5_2_2_create_a_new_patient_visit_new[Create a new patient visit (New)] for more information)
 
 === 10.7 Bill ([.underline]##B##ill)
 
-The button *[.underline]##B##ill* in the Admission/Patient window will allow you to start a bill by selecting the related patient first (see link:#true8_2_1_insert_a_new_bill_new_bill[Insert a new bill (New Bill)] for more information)
+The button *[.underline]##B##ill* in the Admission/Patient window will allow you to start a bill by selecting the related patient first (see link:#8_2_1_insert_a_new_bill_new_bill[Insert a new bill (New Bill)] for more information)
 
 ===  10.8 Manage Patient historical data ([.underline]##D##ATA)
 
@@ -1581,11 +1581,11 @@ image:extracted-media/media/image111.png[../../Screen%20Shot%202019-07-26%20at%2
 
 First of all, to modify a therapy you have to highlight one occurrence of the therapy (see box above) in the *_Therapy_* window. Once you’ve done this, press the **[.underline]##E##dit Therapy [.underline]# #**button. The *_Therapy entry form_* window will appear. You can modify all data as in the *Add a therapy* function.
 
-See link:#true10_10_1_add_a_therapy_add_therapy[Add a therapy (Add Therapy)] function for detailed description.
+See link:#10_10_1_add_a_therapy_add_therapy[Add a therapy (Add Therapy)] function for detailed description.
 
 ====  10.10.3 Remove a therapy (Remove Therapy) 
 
-First of all, to remove a therapy you have to highlight one occurrence of the therapy (see box above) in the Therapy window. Pay attention! Once you’ve done this, pressing the *Remove Therapy* button, the therapy is removed. Therapy can be removed before or after the final saving (see *link:#true8_2_1_9_save_function_save[Save function]* described below)
+First of all, to remove a therapy you have to highlight one occurrence of the therapy (see box above) in the Therapy window. Pay attention! Once you’ve done this, pressing the *Remove Therapy* button, the therapy is removed. Therapy can be removed before or after the final saving (see *link:#8_2_1_9_save_function_save[Save function]* described below)
 
 ====  10.10.4 Check availability of the pharmaceuticals ([.underline]##C##heck availability) 
 
@@ -1603,7 +1603,7 @@ After the check, on the *button panel* of the *_Therapy_* window you see in red 
 
 Note: check can also be done therapy by therapy and not only at the end of the input of all the therapies.
 
-Check function is not mandatory, you can save the therapy plan also without checking the presence of the pharmaceuticals in the hospital (see link:#true8_2_1_9_save_function_save[Save function] below).
+Check function is not mandatory, you can save the therapy plan also without checking the presence of the pharmaceuticals in the hospital (see link:#8_2_1_9_save_function_save[Save function] below).
 
 ==== 10.10.5 Save function ([.underline]##S##AVE)
 
@@ -1930,7 +1930,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Admission Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_1_start_the_admission_of_a_patient_admission[Start the admission of a patient] and link:#true10_5_5_discharge_of_a_patient_admission[Discharge of a patient] in this document).
+The Admission Types defined in this functionality will be reflected in the Admission function (see link:#10_5_1_start_the_admission_of_a_patient_admission[Start the admission of a patient] and link:#10_5_5_discharge_of_a_patient_admission[Discharge of a patient] in this document).
 
 ====  14.2.2 Discharge Types ([.underline]##D##ischarge Type)
 
@@ -1945,7 +1945,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Discharge Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_1_start_the_admission_of_a_patient_admission[Start the admission of a patient] and link:#true10_5_5_discharge_of_a_patient_admission[Discharge of a patient] in this document).
+The Discharge Types defined in this functionality will be reflected in the Admission function (see link:#10_5_1_start_the_admission_of_a_patient_admission[Start the admission of a patient] and link:#10_5_5_discharge_of_a_patient_admission[Discharge of a patient] in this document).
 
 ====  14.2.3 Delivery Types (De[.underline]##l##ivery Type)
 
@@ -1960,7 +1960,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Delivery Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_4_insertmodify_delivery_data in this document).
+The Delivery Types defined in this functionality will be reflected in the Admission function (see link:#10_5_4_insertmodify_delivery_data in this document).
 
 ====  14.2.4 Delivery Result Types (Delive[.underline]##r##y Result Type)
 
@@ -1975,7 +1975,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Delivery Result Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_4_insertmodify_delivery_data in this document).
+The Delivery Result Types defined in this functionality will be reflected in the Admission function (see link:#10_5_4_insertmodify_delivery_data in this document).
 
 ====  14.2.5 Disease Types (Disease [.underline]##T##ype)
 
@@ -1992,7 +1992,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Disease Types defined in this functionality will be reflected in the entire application, like in Disease definition or in OPD (see link:#true14_5_disease_disease[Disease] and link:#true5_2_2_create_a_new_patient_visit_new[Create a new patient visit] in this document).
+The Disease Types defined in this functionality will be reflected in the entire application, like in Disease definition or in OPD (see link:#14_5_disease_disease[Disease] and link:#5_2_2_create_a_new_patient_visit_new[Create a new patient visit] in this document).
 
 ====  14.2.6 Exam Types ([.underline]##E##xam Type)
 
@@ -2009,7 +2009,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Exam Types defined in this functionality will be reflected in the Laboratory function (see link:#true7_laboratory_laboratory[Laboratory] in this document).
+The Exam Types defined in this functionality will be reflected in the Laboratory function (see link:#7_laboratory_laboratory[Laboratory] in this document).
 
 ====  14.2.7 Medicals Stock Movement Types (Medical[.underline]##s## Stock Mov Type)
 
@@ -2040,7 +2040,7 @@ Examples could be:
 * Lost (-)
 * ...
 
-The Medical Stock Movement Types defined in this functionality will be reflected in the Pharmaceutical Stock function (see link:#true6_2_2_3_insert_stock_discharging_movement_discharge[Insert stock movement] in this document).
+The Medical Stock Movement Types defined in this functionality will be reflected in the Pharmaceutical Stock function (see link:#6-2-2-3-insert-stock-discharging-movement-discharge[Insert stock movement] in this document).
 
 ====  14.2.8 Medical Types ([.underline]##M##edical Type)
 
@@ -2057,7 +2057,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Medical Types defined in this functionality will be reflected in the entire application, like in Pharmacy function and Pharmaceutical Stock Ward (see link:#true6_1_2_1_insert_a_new_pharmaceutical_new[Insert a new pharmaceutical] and link:#true6_3_2_2_search_ward_pharmacy_movements_filter[Search Ward Pharmacy movements] in this document).
+The Medical Types defined in this functionality will be reflected in the entire application, like in Pharmacy function and Pharmaceutical Stock Ward (see link:#6-1-2-1-insert-a-new-pharmaceutical-new[Insert a new pharmaceutical] and link:#6-3-2-2-search-ward-pharmacy-movements-filter[Search Ward Pharmacy movements] in this document).
 
 ====  14.2.9 Operation Types ([.underline]##O##peration Type)
 
@@ -2072,7 +2072,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Operation Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_3_insertmodify_surgery_data[Insert/modify Surgery data]  in this document).
+The Operation Types defined in this functionality will be reflected in the Admission function (see link:#10-5-3-insertmodify-surgery-data[Insert/modify Surgery data]  in this document).
 
 ==== 14.2.10 Pregnant Treatment Types ([.underline]##P##regnant Treatment Type)
 
@@ -2087,7 +2087,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Pregnant Treatment Types defined in this functionality will be reflected in the Admission function (see link:#true10_5_4_insertmodify_delivery_data in this document).
+The Pregnant Treatment Types defined in this functionality will be reflected in the Admission function (see link:#10-5-4-insertmodify-delivery-data in this document).
 
 ==== 14.2.11 Other Prices (Ot[.underline]##h##er Prices)
 
@@ -2121,7 +2121,7 @@ image:extracted-media/media/image153.png[New Prices_daily.PNG,width=297,height=1
 
 image:extracted-media/media/image154.png[New Prices_undefined.PNG,width=297,height=124]
 
-The Other Prices defined in this functionality will be reflected in the Accounting and PriceLists functions (see link:#true8_2_1_insert_a_new_bill_new_bill[Insert a new bill] and link:#true14_9_prices_price_lists[Prices] in this document).
+The Other Prices defined in this functionality will be reflected in the Accounting and PriceLists functions (see link:#8-2-1-insert-a-new-bill-new-bill[Insert a new bill] and link:#14-9-prices-price-lists[Prices] in this document).
 
 ==== 14.2.12 Age Types (A[.underline]##g##e Type)
 
@@ -2147,7 +2147,7 @@ In following case instead, ranges Late Childhood and Adolescent are *overlapped*
 
 image:extracted-media/media/image159.png[image,width=642,height=313]
 
-The Age Types defined in this functionality will be reflected in the Patient Extended functionality (see link:#true10_4_insert_a_new_patient_extended_new_patient[Insert a new Patient Extended] in this document).
+The Age Types defined in this functionality will be reflected in the Patient Extended functionality (see link:#10-4-insert-a-new-patient-extended-new-patient[Insert a new Patient Extended] in this document).
 
 ==== 14.2.13 Vaccine Types ([.underline]##V##accine Type)
 
@@ -2162,7 +2162,7 @@ The functions available from this window (but similarly to other windows in *_Ty
 * *[.underline]##D##elete*: to delete an already existing type (cannot be deleted if still used somewhere in the application)
 * *[.underline]##C##lose*: to close the window
 
-The Vaccine Types defined in this functionality will be reflected in the Vaccine function (see link:#true9_vaccines_patient_vaccines[Vaccines] in this document).
+The Vaccine Types defined in this functionality will be reflected in the Vaccine function (see link:#9-vaccines-patient-vaccines[Vaccines] in this document).
 
 === 14.3 Hospital ([.underline]##H##ospital)
 
@@ -2206,7 +2206,7 @@ In order to insert a new Ward, you must provide following compulsive inputs:
 
 _*[.underline]#NB#*: trough this function we may define some wards with 0 - zero beds but with pharmacy, in order to have “logic” departments (rather than physical) to manage pharmacy movements_
 
-The Wards defined in this functionality will be reflected in the entire application, like in Admission module, Pharmaceuticals Stock and Pharmaceuticals Stock Ward (see link:#true10_admissionpatient_admissionpatient[Admission/Patient], link:#true6_2_pharmaceutical_stock_pharmaceutical_stock[Pharmaceutical Stock] and link:#true6_3_pharmaceuticals_stock_ward_pharmaceuticals_stock_ward[Pharmaceuticals Stock Ward] in this document).
+The Wards defined in this functionality will be reflected in the entire application, like in Admission module, Pharmaceuticals Stock and Pharmaceuticals Stock Ward (see link:#10-admissionpatient-admissionpatient[Admission/Patient], link:#6-2-pharmaceutical-stock-pharmaceutical-stock[Pharmaceutical Stock] and link:#6-3-pharmaceuticals-stock-ward-pharmaceuticals-stock-ward[Pharmaceuticals Stock Ward] in this document).
 
 === 14.5 Disease ([.underline]##D##isease)
 
@@ -2232,7 +2232,7 @@ In editing mode, you cannot change type and code but only modify the Description
 
 By removing the check from both checkboxes OPD and IPD you are performing a *[.underline]##D##elete* action, that is disabling it to not appear anymore in the application. Anyway, this can be changed anytime by editing it again.
 
-The Diseases defined in this functionality will be reflected in the entire application, like in Admission module and OPD module (see link:#true10_admissionpatient_admissionpatient[Admission/Patient] and link:#true5_outpatient_department_management_opd[Outpatient Department Management] in this document).
+The Diseases defined in this functionality will be reflected in the entire application, like in Admission module and OPD module (see link:#10-admissionpatient-admissionpatient[Admission/Patient] and link:#5-outpatient-department-management-opd[Outpatient Department Management] in this document).
 
 === 14.6 Exam ([.underline]##E##xams)
 
@@ -2261,11 +2261,11 @@ image:extracted-media/media/image170.png[Exam Browsing_edit.PNG,width=373,height
 
 In order to insert a new Exam, you must input the following data:
 
-* *Type*: is the Exam Type (see link:#true14_2_6_exam_types_exam_type[Exam Types] in this document)
+* *Type*: is the Exam Type (see link:#14-2-6-exam-types-exam-type[Exam Types] in this document)
 * *Code*: you cannot use an already used code; a warning window will appear in case
 * *Description*: is the exam name
-* *Procedure*: the kind of results for this exam (see link:#true14_6_1_results_results[Results] in this document)
-* *Default*: a default value among the result we are going to define (see link:#true14_6_1_results_results[Results] in this document)
+* *Procedure*: the kind of results for this exam (see link:#14-6-1-results-results[Results] in this document)
+* *Default*: a default value among the result we are going to define (see link:#14-6-1-results-results[Results] in this document)
 
 ====  14.6.1 Results (Re[.underline]##s##ults)
 
@@ -2276,7 +2276,7 @@ In OpenHospital 1.7 you can define two kind of set of results, called “Procedu
 * *Procedure 1*: a set of values as description; only one will be selectable as exam *Single Result*
 * *Procedure 2*: a set of Positive/Negative values; all of them will figure as exam *Multiple Results*
 
-The difference between *Procedure1* and *Procedure2* will be seen in the Laboratory module (see link:#true7_2_2_create_a_new_laboratory_exam_new[Create a new laboratory exam] and link:#true7_3_3_laboratory_multiple_insert[Laboratory Multiple Insert] in this document)
+The difference between *Procedure1* and *Procedure2* will be seen in the Laboratory module (see link:#7-2-2-create-a-new-laboratory-exam-new[Create a new laboratory exam] and link:#7-3-3-laboratory-multiple-insert[Laboratory Multiple Insert] in this document)
 
 So, the two possibilities are showed below:
 
@@ -2310,7 +2310,7 @@ ____
 
 In editing mode, you cannot change type and code but only modify the Description and specify if the operation concerns Major or Minor surgery for statistical purpose (not yet implemented).
 
-The Operations defined in this functionality will be reflected in the entire application, like in Admission module (see link:#true10_5_3_insertmodify_surgery_data[Insert/modify Surgery data]  in this document).
+The Operations defined in this functionality will be reflected in the entire application, like in Admission module (see link:#10-5-3-insertmodify-surgery-data[Insert/modify Surgery data]  in this document).
 
 === 14.8 Vaccine ([.underline]##V##accine)
 
@@ -2334,7 +2334,7 @@ ____
 
 In editing mode, you cannot change type and code but only modify the Description.
 
-The Vaccines defined in this functionality will be reflected in the entire application, like in Vaccine module (see link:#true9_vaccines_patient_vaccines[Vaccines] in this document).
+The Vaccines defined in this functionality will be reflected in the entire application, like in Vaccine module (see link:#9-vaccines-patient-vaccines[Vaccines] in this document).
 
 === 14.9 Prices ([.underline]##P##rice Lists)
 
@@ -2348,15 +2348,15 @@ The functions available from this window are:
 * *[.underline]#Printing#*: to print the current Price List
 * *[.underline]##C##ancel*: to close the window
 * Switch pricelist: you can focus on a different pricelist by selecting it on the upper-left corner of the window
-* *Manage Lists*: you can define how many and which pricelist will be available in the application (see link:#true14_9_1_pricelists_manage_lists[Pricelists] in this document)
+* *Manage Lists*: you can define how many and which pricelist will be available in the application (see link:#14-9-1-pricelists-manage-lists[Pricelists] in this document)
 
-The *_Prices Browser_* window shows the list of all prices in the selected pricelists; the system automatically creates a price for every Exam (see link:#true14_6_exam_exams[Exam]), Operation (see link:#true14_7_operations_operation[Operations]) and Medical (see link:#true6_1_pharmaceuticals_pharmaceuticals[Pharmaceuticals]) defined in the system, plus other prices defined in Other Prices module (see link:#true14_2_11_other_prices_other_prices[Other Prices])
+The *_Prices Browser_* window shows the list of all prices in the selected pricelists; the system automatically creates a price for every Exam (see link:#14-6-exam-exams[Exam]), Operation (see link:#14-7-operations-operation[Operations]) and Medical (see link:#6-1-pharmaceuticals-pharmaceuticals[Pharmaceuticals]) defined in the system, plus other prices defined in Other Prices module (see link:#14-2-11-other-prices-other-prices[Other Prices])
 
 In order to modify a price just double-click on it and type the new price.
 
-_*[.underline]#NB#*: if a price has been defined as “undefined” (see link:#true14_2_11_other_prices_other_prices[Other Prices]) it will look as 0 – zero and cannot be modified._
+_*[.underline]#NB#*: if a price has been defined as “undefined” (see link:#14-2-11-other-prices-other-prices[Other Prices]) it will look as 0 – zero and cannot be modified._
 
-_*NB*: Exams, Operations and Medicals prices are automatically created as OPD, IPD, not “daily”, not “undefined”, not “discharge”; see link:#true14_2_11_other_prices_other_prices[Other Prices] for more information._
+_*NB*: Exams, Operations and Medicals prices are automatically created as OPD, IPD, not “daily”, not “undefined”, not “discharge”; see link:#14-2-11-other-prices-other-prices[Other Prices] for more information._
 
 When all modifications have been made, you can store them permanently in the system by pressing *[.underline]##S##AVE* button. After some instants a confirmation message will inform you about the success of the operation:
 
@@ -2407,7 +2407,7 @@ ____
 
 In editing mode, you can change all data related to the list.
 
-The Lists defined in this functionality will be reflected in the Accounting module (see link:#true8_2_1_insert_a_new_bill_new_bill[Insert a new bill] in this document).
+The Lists defined in this functionality will be reflected in the Accounting module (see link:#8-2-1-insert-a-new-bill-new-bill[Insert a new bill] in this document).
 
 === 14.10 Supplier ([.underline]#Supplier#)
 
