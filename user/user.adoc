@@ -1951,7 +1951,7 @@ The Discharge Types defined in this functionality will be reflected in the Admis
 
 Once you’ve pressed on *De[.underline]##l##ivery Type* button from the *_Types_* menu you access the *_Delivery Type Browsing_* window as showed below:
 
-image:extracted-media/media/image142.png[Discharge Types.PNG,width=432,height=194]
+image:extracted-media/media/image142.PNG[Discharge Types.PNG,width=432,height=194]
 
 The functions available from this window (but similarly to other windows in *_Types_* menu) are:
 
@@ -1982,7 +1982,7 @@ The Delivery Result Types defined in this functionality will be reflected in the
 Once you’ve pressed on *Disease [.underline]##T##ype* button from the *_Types_* menu you access the *_Disease Type Browsing_* window as showed below:
 
 ____
-image:extracted-media/media/image144.png[image,width=408,height=183]
+image:extracted-media/media/image144.PNG[image,width=408,height=183]
 ____
 
 The functions available from this window (but similarly to other windows in *_Types_* menu) are:
